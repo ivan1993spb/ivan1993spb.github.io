@@ -1,0 +1,19 @@
+#home {
+      width: 350px;
+      height: 350px;
+      background-size: auto 350px;
+      background-repeat: no-repeat;
+      background-color: lightblue;
+      background-position: center center;
+      padding: 0;
+      margin: 03;
+
+    }
+    
+    .game {
+      margin: 0 auto;
+    }
+body {
+  margin: 0px;
+  padding: 0px;
+}
