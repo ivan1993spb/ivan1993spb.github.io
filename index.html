@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>pushkin</title>
+
+<style>
+body { 
+  background: black;
+  margin: 20px;
+}
+
+.text { 
+  position: relative;
+  display: inline-block;
+  font-family: monospace;
+  line-height: 24px;
+  font-size: 24px;
+  color: white;
+  min-width: 150px;
+}
+
+.text::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -16px;
+  display: inline-block;
+  background-color: #ffffff;
+  vertical-align: top;
+  width: 15px;
+  height: 24px;
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+</style>
+
+</head>
+<body>
+
+<div class="text">wtf:~$ apt show pushkin</div>
+
+</body>
+</html>
